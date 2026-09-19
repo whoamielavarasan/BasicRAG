@@ -1,0 +1,17 @@
+# Virtual environment
+BasicRAG_Env/
+
+# Vector DB (generated - rebuild with ingest.py)
+chroma_db/
+index_cache_base/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
